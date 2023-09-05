@@ -6,7 +6,7 @@ A simple web-based Homebanking application built with Angular, where users can r
 
 ## Demo
 
-You can access the live demo of this project [here](https://your-netlify-app-url.com).
+You can access the live demo of this project [here](https://homebankingexercise.netlify.app).
 
 ## Table of Contents
 
