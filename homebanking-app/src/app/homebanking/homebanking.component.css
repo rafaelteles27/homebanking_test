@@ -1,0 +1,304 @@
+/* Example styles for buttons */
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed:600i,700');
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 50px; 
+  }
+
+.btn-depositar,
+.btn-retirar {
+  margin: 0 10px; 
+}
+
+.btn-depositar {
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    border: 2px solid green;
+    color: green;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.25s ease;
+  }
+  .btn-depositar:hover {
+    color: white;
+    background: green;
+  }
+  .btn-depositar:active {
+    letter-spacing: 2px;
+  }
+  
+  .onclic {
+    width: 40px;
+    border-color: gray;
+    border-width: 3px;
+    font-size: 0;
+    border-left-color: green;
+    animation: rotating 2s 0.25s linear infinite;
+  }
+  .onclic:hover {
+    color: green;
+    background: white;
+  }
+  
+  .validate {
+    font-size: 13px;
+    color: white;
+    background: green;
+  }
+  .validate:after {
+    font-family: 'FontAwesome';
+    content: "\f00c";
+  }
+  
+  @keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  .btn-retirar {
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 130px;
+    border-radius: 40px;
+    background: #fff;
+    border: 2px solid red;
+    color: red;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.25s ease;
+  }
+  .btn-retirar:hover {
+    color: white;
+    background: red;
+  }
+  .btn-retirar:active {
+    letter-spacing: 2px;
+  }
+  
+  .onclic {
+    width: 40px;
+    border-color: gray;
+    border-width: 3px;
+    font-size: 0;
+    border-left-color: red;
+    animation: rotating 2s 0.25s linear infinite;
+  }
+  .onclic:hover {
+    color: red;
+    background: white;
+  }
+  
+  .validate {
+    font-size: 13px;
+    color: white;
+    background: rgb(236, 6, 6);
+  }
+  .validate:after {
+    font-family: 'FontAwesome';
+    content: "\f00c";
+  }
+  
+  @keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .logout {
+    position: absolute;
+    top: 80px; 
+    right: 80px; 
+  }
+  
+  a{
+    display: block;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding: 10px;
+    letter-spacing: 2px;
+    transition: all .25s;
+  }
+  
+  a:hover{
+    letter-spacing: 15px;
+  }
+  
+  
+  h1 {
+    font-size: 60px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .card {
+    position: relative;
+    margin: auto;
+    height: 350px;
+    width: 600px;
+    text-align: center;
+    background: linear-gradient(#E96874, #6E3663, #2B0830);
+    border-radius: 2px;
+    box-shadow: 0 6px 12px -3px rgba(0,0,0,.3);
+    color: #fff;
+    padding: 30px;
+  }
+  
+  .card header {
+    position: absolute;
+    top: 31px;
+    left: 0;
+    width: 100%;
+    padding: 0 10%;
+    transform: translateY(-50%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+  
+  .card header > *:first-child {
+    text-align: left;
+  }
+  .card header > *:last-child {
+    text-align: right;
+  }
+  
+  .logo {
+    font-size: 24px;
+    position: relative;
+  }
+  .logo:before,
+  .logo:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-top: 3px solid currentColor;
+    transform: translateY(-50%);
+  }
+  
+  .logo:before {
+    right: 158px;
+    width: 40%;
+  }
+  .logo:after {
+    left: 158px;
+    width: 55%;
+  }
+  
+  .logo span {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 1px);
+  }
+  
+  .announcement {
+    position: relative;
+    border: 3px solid currentColor;
+    border-top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .announcement:before,
+  .announcement:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    border-top: 3px solid currentColor;
+    height: 0;
+    width: 15px;
+  }
+  .announcement:before {
+    left: -3px;
+  }
+  .announcement:after {
+    right: -3px;
+  }
+  
+  
+  .inspiration {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  a,
+  a:visited,
+  a:focus,
+  a:active,
+  a:link {
+    text-decoration: none;
+    outline: 0;
+  }
+  
+  a {
+    color: currentColor;
+    transition: .2s ease-in-out;
+  }
+  
+  h1, h2, h3, h4 {
+    margin: .15em 0;
+  }
+  
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  img {
+    vertical-align: middle;
+    height: auto;
+    width: 100%;
+  }
+  

@@ -1,0 +1,18 @@
+<!-- src/app/registro/registro.component.html -->
+<div class="container">
+    <h2>Registro</h2>
+    <form [formGroup]="registroForm" (ngSubmit)="onSubmit()" class="example-form">
+      <mat-form-field class="example-full-width">
+        <mat-label for="email">Email:</mat-label>
+        <input matInput type="email" class="form-control" id="email" formControlName="email" required>
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label for="password">Password:</mat-label>
+        <input matInput type="password" class="form-control" id="password" formControlName="password" required>
+      </mat-form-field>
+      <button mat-flat-button color="primary" type="submit" class="btn btn-primary">Registar</button>
+      <div class="spacer"></div>
+      <a routerLink="/login" mat-raised-button color="accent">Já tem conta?</a>
+    </form>
+  </div>
+  
